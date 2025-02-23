@@ -1,5 +1,13 @@
 This aim of this application is to identify and analyse promoter regions in bacterial genes by comparing them with a set of reference genes. This includes steps such as parsing reference genes and their sequences, and check if it is homologous to any gene in the genbank files using the Smith-Waterman-Gotoh algorithm. If homologous, the promotor region in the upstream DNA is predicted using the Sigma70 consensus sequence and a consensus map is updated and displayed.
 
+This project aims to identify code sections that can be parallelized using Java methods and frameworks to cut down the runtime and achieve speedup in exceution time. The methods used to achieve this include
+1. Utilization of explicit threading
+2. Parallel Streams
+3. Executor service
+
+The resultant code can be found in src/qut/parallel.java
+**Result:** Parallel streams and Executor Service achieved a speedup > 4 (4.4 max)
+
 ### Process
 
 -	Parse reference genes and their sequences.
